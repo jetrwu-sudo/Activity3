@@ -8,7 +8,7 @@ const LoginPage = () => {
   return (
     <View style={styles.container}>
       <Image
-        source={require('./assets/icon.png')} // Add your logo image in the assets folder
+        source={require('./assets/icon.png')} 
         style={styles.logo}
       />
       <Text style={styles.brandName}>BetterStreets</Text>
@@ -82,7 +82,7 @@ const styles = StyleSheet.create({
   buttonRegister: {
     width: '100%',
     padding: 15,
-    backgroundColor: '#ff6347', // A different color for register button
+    backgroundColor: '#ff6347', 
     alignItems: 'center',
     borderRadius: 20,
     marginTop: 30,
